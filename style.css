@@ -1,0 +1,56 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Optional: Added a background color */
+}
+
+.container {
+    text-align: center;
+}
+
+input[type="number"] {
+    padding: 15px; /* Increased padding */
+    margin: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 18px; /* Increased font size */
+    width: 20%; /* Ensure consistent width */
+}
+
+button {
+    padding: 15px 25px; /* Increased padding */
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size */
+    margin-top: 5px; /* Adjusted margin */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.logo-container {
+    margin-bottom: 30px; /* Increased margin */
+}
+
+.logo {
+    width: 200px; /* Significantly increased logo size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 48px; /* Further increased font size */
+    font-weight: bold;
+    color: #007bff;
+}
