@@ -9,7 +9,7 @@ Simple random number generator that can be used for raffles etc.
 
 ```bash
 docker pull ghcr.io/al-lac/random-number-generator:main
-docker run -p 8080:8080 random-number-generator:latest
+docker run -p 8080:8080 ghcr.io/al-lac/random-number-generator:main
 ```
 
 ## Build it yourself
